@@ -48,7 +48,7 @@
 }
 
 .ace_marker-layer .ace_selection {
-  background: #464B5D80;
+  background: #bd93f980;
 }
 
 .ace_marker-layer .ace_step {
