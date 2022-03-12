@@ -3003,6 +3003,10 @@ input#rstudio_command_palette_search {
     word-wrap: break-word;
 }
 
+.GONVA-ECI3 {
+    background: #252631;
+}
+
 /*Import Excel data import options*/
 .GCHYANPCNTD {
     border: 1px solid #252631;
