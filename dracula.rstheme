@@ -3007,6 +3007,10 @@ input#rstudio_command_palette_search {
     background: #252631;
 }
 
+.GONVA-ECPX{
+    background-color: #6272a4 !important;
+ }
+
 /*Import Excel data import options*/
 .GCHYANPCNTD {
     border: 1px solid #252631;
