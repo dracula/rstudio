@@ -120,7 +120,7 @@
 }
 
 .ace_constant.ace_language {
-  color: #BD93F9;
+  color: #ff5555;
 }
 
 .ace_constant.ace_numeric {
