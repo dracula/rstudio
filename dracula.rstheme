@@ -3003,17 +3003,28 @@ input#rstudio_command_palette_search {
     word-wrap: break-word;
 }
 
+/* New project window */
 .GONVA-ECI3 {
     background: #252631;
 }
 
+/* Modified keyboard shortcuts colors */
 .GONVA-ECPX{
     background-color: #6272a4 !important;
- }
+}
 
 .GONVA-ECK-{
     background-color: #6272a4 !important;
- }
+}
+ 
+ /* Update packages window */
+.GONVA-ECMHC{
+    background-color: #252631;
+}
+
+.GONVA-ECMGC{
+    background-color: #252631;
+}
 
 /*Import Excel data import options*/
 .GCHYANPCNTD {
@@ -3035,6 +3046,10 @@ input#rstudio_command_palette_search {
     margin-top: 3px;
     margin-right: 5px;
     margin-left: 5px;
+}
+
+.GONVA-ECFWD{
+    background-color: #252631
 }
 
 .gwt-DialogBox .dialogMiddleCenter, .GCHYANPCOR .popupMiddleCenter {
