@@ -3020,10 +3020,21 @@ input#rstudio_command_palette_search {
  /* Update packages window */
 .GONVA-ECMHC{
     background-color: #252631;
+    border: none;
 }
 
 .GONVA-ECMGC{
     background-color: #252631;
+    border: none;
+}
+
+.GONVA-ECKGC{
+    background-color: #252631;
+    border: none;
+}
+
+.GONVA-ECNGC{
+    border: none;
 }
 
 /*Import Excel data import options*/
