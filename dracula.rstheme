@@ -1,5 +1,6 @@
 /* rs-theme-name: Dracula */
 /* rs-theme-is-dark: TRUE */
+
 .ace_gutter {
   background: #282A36;
   color: #4b5578;
@@ -3003,42 +3004,67 @@ input#rstudio_command_palette_search {
     word-wrap: break-word;
 }
 
+
 /* New project window */
-.GONVA-ECI3 {
-    background: #252631;
+.GEL-OVUBL2{
+	background: #252631;
 }
 
-/* Modified keyboard shortcuts colors */
-.GONVA-ECPX{
-    background-color: #6272a4 !important;
+/* Keyboard shortcuts menu */
+   /* Warning rows - e.g. confliting keyboard shortcuts */
+.GEL-OVUBFX{
+	background-color: #ff5555;
 }
 
-.GONVA-ECK-{
-    background-color: #6272a4 !important;
+	/* Modified keyboard shortcut */
+.GEL-OVUBGX{
+	background-color: #6272a4 !important;
 }
- 
- /* Update packages window */
-.GONVA-ECMHC{
-    background-color: #252631;
+
+.GEL-OVUBB-{
+	background-color: #6272a4 !important;
+}
+
+/* Pacakage updater */
+
+    /* Alternating light/dark rows in package updater */
+.GEL-OVUBIX{
+	background-color: #252631;
     border: none;
 }
 
-.GONVA-ECMGC{
-    background-color: #252631;
+.GEL-OVUBDHC{
+	background-color: #252631 !important;
+	border: none;
+}
+
+.GEL-OVUBHY{
+	background-color: #282a36;
+	border: none;
+}
+
+.GEL-OVUBDIC{
+	background-color:  #282a36;
     border: none;
 }
 
-.GONVA-ECKGC{
-    background-color: #252631;
-    border: none;
+	/* Removing white borders from package updater */
+.GEL-OVUBEHC{
+	border: none;
 }
 
-.GONVA-ECNGC{
-    border: none;
+.GEL-OVUBEIC{
+	border: none;
 }
+
+	/* Background color in package updates */
+.GEL-OVUBBHC{
+	background: #252631;
+}
+
 
 /*Import Excel data import options*/
-.GCHYANPCNTD {
+.GEL-OVUBOVD {
     border: 1px solid #252631;
     background-color: #252631;
     padding-top: 12px;
@@ -3077,8 +3103,10 @@ input#rstudio_command_palette_search {
     margin-left: 5px;
 }
 
+
+
 /*Import text data import options*/
-.GCHYANPCASD {
+.GEL-OVUBBUD {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -3098,8 +3126,37 @@ input#rstudio_command_palette_search {
     margin-left: 5px;
 }
 
+.GEL-OVUBB4B{
+	background-color: #252631;
+}
+
+.GEL-OVUBG4B{
+	background-color: #252631;
+}
+
 /*Import statistical data import options*/
-.GCHYANPCPSD {
+.GEL-OVUBBUD {
+    border: 1px solid #999;
+    background-color: #252631;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-bottom: 3px;
+    padding-right: 6px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    margin-top: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.GEL-OVUBAVD {
     border: 1px solid #999;
     background-color: #252631;
     padding-top: 12px;
