@@ -377,6 +377,11 @@ table.rstheme_tabLayoutCenter .gwt-Label,
   border-color: #252631;
 }
 
+/* Inline Rmarkdown popup */
+.GEL-OVUBBRC {
+	color: #f8f8f2 !important;
+}
+
 .rstudio-themes-flat .popupContent:not(.popupMiddleCenterInner) div div:nth-child(2) {
   background-color: unset;
   border: none;
@@ -3006,7 +3011,7 @@ input#rstudio_command_palette_search {
 
 
 /* New project window */
-.GEL-OVUBL2{
+.GEL-OVUBL2 {
 	background: #252631;
 }
 
