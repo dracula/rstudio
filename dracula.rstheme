@@ -3054,19 +3054,38 @@ input#rstudio_command_palette_search {
 }
 
 	/* Removing white borders from package updater */
-.GEL-OVUBEHC{
+.GEL-OVUBEHC {
 	border: none;
 }
 
-.GEL-OVUBEIC{
+.GEL-OVUBEIC {
 	border: none;
 }
 
 	/* Background color in package updates */
-.GEL-OVUBBHC{
+.GEL-OVUBBHC {
 	background: #252631;
 }
 
+/* Quit R - Unsaved files warning window */
+
+.GEL-OVUBFUB {
+	background-color: #252631 !important;
+	border: none;
+}
+
+.GEL-OVUBFVB {
+	background-color: #282a36;
+	border: none;
+}
+
+.GEL-OVUBAWB {
+	background-color: #252631;
+}
+
+.GEL-OVUBGUB, .GEL-OVUBNUB, .GEL-OVUBIVB, .GEL-OVUBAVB, .GEL-OVUBOUB {
+	border: none;
+}
 
 /*Import Excel data import options*/
 .GEL-OVUBOVD {
