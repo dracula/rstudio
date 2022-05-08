@@ -1,5 +1,6 @@
 /* rs-theme-name: Dracula */
 /* rs-theme-is-dark: TRUE */
+
 .ace_gutter {
   background: #282A36;
   color: #4b5578;
@@ -48,7 +49,7 @@
 }
 
 .ace_marker-layer .ace_selection {
-  background: #464B5D80;
+  background: #66698780;
 }
 
 .ace_marker-layer .ace_step {
@@ -65,7 +66,7 @@
 }
 
 .ace_marker-layer .ace_selected-word {
-  border: 1px solid #464B5D80;
+  background-color: ##66698780;
 }
 
 .ace_marker-layer .ace_foreign_line {
@@ -101,7 +102,7 @@
 }
 
 .ace_active-line ~ .ace_selection.ace_start {
-  background-color: #21222c;
+  background-color: ##666987;
 }
 
 .ace_keyword {
@@ -120,7 +121,7 @@
 }
 
 .ace_constant.ace_language {
-  color: #BD93F9;
+  color: #ff5555;
 }
 
 .ace_constant.ace_numeric {
@@ -374,6 +375,11 @@ table.rstheme_tabLayoutCenter .gwt-Label,
   background: #282A36;
   color: #f8f8f2;
   border-color: #252631;
+}
+
+/* Inline Rmarkdown popup */
+.GEL-OVUBBRC {
+	color: #f8f8f2 !important;
 }
 
 .rstudio-themes-flat .popupContent:not(.popupMiddleCenterInner) div div:nth-child(2) {
@@ -3003,8 +3009,86 @@ input#rstudio_command_palette_search {
     word-wrap: break-word;
 }
 
+
+/* New project window */
+.GEL-OVUBL2 {
+	background: #252631;
+}
+
+/* Keyboard shortcuts menu */
+   /* Warning rows - e.g. confliting keyboard shortcuts */
+.GEL-OVUBFX{
+	background-color: #ff5555;
+}
+
+	/* Modified keyboard shortcut */
+.GEL-OVUBGX{
+	background-color: #6272a4 !important;
+}
+
+.GEL-OVUBB-{
+	background-color: #6272a4 !important;
+}
+
+/* Pacakage updater */
+
+    /* Alternating light/dark rows in package updater */
+.GEL-OVUBIX{
+	background-color: #252631;
+    border: none;
+}
+
+.GEL-OVUBDHC{
+	background-color: #252631 !important;
+	border: none;
+}
+
+.GEL-OVUBHY{
+	background-color: #282a36;
+	border: none;
+}
+
+.GEL-OVUBDIC{
+	background-color:  #282a36;
+    border: none;
+}
+
+	/* Removing white borders from package updater */
+.GEL-OVUBEHC {
+	border: none;
+}
+
+.GEL-OVUBEIC {
+	border: none;
+}
+
+	/* Background color in package updates */
+.GEL-OVUBBHC {
+	background: #252631;
+}
+
+/* Quit R - Unsaved files warning window */
+
+.GEL-OVUBFUB {
+	background-color: #252631 !important;
+	border: none;
+}
+
+.GEL-OVUBFVB {
+	background-color: #282a36;
+	border: none;
+}
+
+.GEL-OVUBAWB {
+	background-color: #252631;
+}
+
+.GEL-OVUBGUB, .GEL-OVUBNUB, .GEL-OVUBIVB, .GEL-OVUBAVB, .GEL-OVUBOUB {
+	border: none;
+}
+
 /*Import Excel data import options*/
-.GCHYANPCNTD {
+.GEL-OVUBOVD {
     border: 1px solid #252631;
     background-color: #252631;
     padding-top: 12px;
@@ -3025,6 +3109,10 @@ input#rstudio_command_palette_search {
     margin-left: 5px;
 }
 
+.GONVA-ECFWD{
+    background-color: #252631
+}
+
 .gwt-DialogBox .dialogMiddleCenter, .GCHYANPCOR .popupMiddleCenter {
     background: #252631;
 }
@@ -3039,8 +3127,10 @@ input#rstudio_command_palette_search {
     margin-left: 5px;
 }
 
+
+
 /*Import text data import options*/
-.GCHYANPCASD {
+.GEL-OVUBBUD {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -3060,8 +3150,37 @@ input#rstudio_command_palette_search {
     margin-left: 5px;
 }
 
+.GEL-OVUBB4B{
+	background-color: #252631;
+}
+
+.GEL-OVUBG4B{
+	background-color: #252631;
+}
+
 /*Import statistical data import options*/
-.GCHYANPCPSD {
+.GEL-OVUBBUD {
+    border: 1px solid #999;
+    background-color: #252631;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-bottom: 3px;
+    padding-right: 6px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    margin-top: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.GEL-OVUBAVD {
     border: 1px solid #999;
     background-color: #252631;
     padding-top: 12px;
